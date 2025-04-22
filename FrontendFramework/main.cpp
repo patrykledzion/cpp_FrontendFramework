@@ -3,7 +3,7 @@
 int main()
 {
 	nXMLReader::XMLReader reader = nXMLReader::XMLReader("src/testfile.xml");
-
+	std::cout << "DOCUMENT -> APPEND()";
 	reader.Read();
 	for (int i = 0; i < reader.GetTags()->size(); i++)
 	{

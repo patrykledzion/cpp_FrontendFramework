@@ -129,12 +129,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Document.cpp" />
+    <ClCompile Include="DOMElement.cpp" />
+    <ClCompile Include="DOMTree.cpp" />
+    <ClCompile Include="FrontendFramework.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Navigation.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\XMLReaderLib\XMLReaderLib.vcxproj">
       <Project>{e1e6d7ea-1f91-4e21-baf1-54b255c213d7}</Project>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Document.h" />
+    <ClInclude Include="DOMElement.h" />
+    <ClInclude Include="DOMTree.h" />
+    <ClInclude Include="FrontendFramework.h" />
+    <ClInclude Include="Navigation.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
